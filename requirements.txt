@@ -1,0 +1,10 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.3.1
+torchaudio==2.3.1
+torchvision==0.18.1
+imageio[ffmpeg]
+numpy==1.26.0
+
+# Install whisperx from GitHub (must be last)
+ git+https://github.com/m-bain/whisperx.git
